@@ -7,6 +7,7 @@ export class Main extends Component {
     render() {
         return (
             <BrowserRouter>
+
                 <Switch>
                     <PageOne /> 
                     <PageTwo /> 
