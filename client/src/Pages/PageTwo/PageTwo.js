@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 import Dropdown from 'react-dropdown'
 import 'react-dropdown/style.css'
-import Compone from '../../Components/compone'
-import Comptwo from '../../Components/comptwo'
-import Compthree from '../../Components/compthree'
+import Compone from '../../components/compone'
+import Comptwo from '../../components/comptwo'
+import Compthree from '../../components/compthree'
 import './PageTwo.scss'
 
 export class PageTwo extends Component {
