@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Dropdown from 'react-dropdown'
 import 'react-dropdown/style.css'
-import Comptwo from '../../Components/comptwo'
+import Comptwo from '../../components/comptwo'
 
 const options = [
     'Success Rate Duration', 'Category 2', 'Category 3'
