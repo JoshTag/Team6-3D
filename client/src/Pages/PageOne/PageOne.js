@@ -9,9 +9,6 @@ const options = [
 
   
   export class PageOne extends Component {
-      onSelect = () => {
-            console.log("hello")
-        }
       render() {
         return (
             <div>
