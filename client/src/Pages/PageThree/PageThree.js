@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Dropdown from 'react-dropdown'
 import 'react-dropdown/style.css'
-import Compthree from '../../components/compthree'
+import Compthree from '../../Components/compthree'
 
 const options = [
     'Success By Goal', 'Category 2', 'Category 3'

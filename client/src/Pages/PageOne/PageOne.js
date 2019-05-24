@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Dropdown from 'react-dropdown'
 import 'react-dropdown/style.css'
-import Compone from '../../components/compone'
+import Compone from '../../Components/compone'
 
 const options = [
     'Top Five 10 Categories', 'Category 2', 'Category 3'
