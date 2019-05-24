@@ -4,14 +4,11 @@ import 'react-dropdown/style.css'
 import Compthree from '../../Components/compthree'
 
 const options = [
-    'Success By Goal', 'Category 2', 'Category 3'
+    'Average Amount of Pleges by successfull campaigns', 'Category 2', 'Category 3'
   ]
 
   
   export class PageThree extends Component {
-      onSelect = () => {
-            console.log("hello")
-        }
       render() {
         return (
             <div>
