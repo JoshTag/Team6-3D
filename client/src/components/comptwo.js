@@ -6,7 +6,7 @@ export class Comptwo extends Component {
         return (
             <div>
                 <div className="graph">
-                    <iframe src="https://public.tableau.com/views/TableauKickstarterfinal/2_GenreofFilmbySuccessrateduration?:showVizHome=n:embed=y&:display_count=yes&publish=yes&:origin=viz_share_link"  width="1000" height="811">></iframe>
+                    <iframe src="https://public.tableau.com/views/TableauKickstarterFINAL2/Dashboard2?:showVizHome=n:embed=y&:display_count=yes&publish=yes&:origin=viz_share_link"  width="1000" height="811">></iframe>
                 </div>
             </div>
         )

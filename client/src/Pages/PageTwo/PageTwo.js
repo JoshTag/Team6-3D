@@ -12,17 +12,17 @@ export class PageTwo extends Component {
             <div className="container">
                 <div className="buttons">
                     <button className="buttons__click" onClick={this.displayOne}>
-                        Top Five 10 Categories
+                        Top Ten Categories
                     </button>
                     <Compone /> 
                     
                     <button className="buttons__click" onClick={this.displayTwo}>
-                        Success Rate vs Genre
+                        Genre of Film by Success rate /duration
                     </button>
                     <Comptwo /> 
 
                     <button className="buttons__click" onClick={this.displayThree}>
-                        Average Amount Pledged for Successful Campaigns 
+                        Average amount pledged for successful campaigns
                     </button>
                     <Compthree /> 
                 </div>
