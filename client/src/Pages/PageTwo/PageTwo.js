@@ -1,8 +1,10 @@
 import React, { Component } from 'react'
 import Dropdown from 'react-dropdown'
 import 'react-dropdown/style.css'
+import Comptwo from '../../components/comptwo'
+
 const options = [
-    '', 'Category 2', 'Category 3'
+    'Success Rate Duration', 'Category 2', 'Category 3'
   ]
 
 export class PageTwo extends Component {
@@ -10,6 +12,9 @@ export class PageTwo extends Component {
         return (
             <div>
                 <Dropdown options={options} onChange={this._onSelect} placeholder="Select a category" />
+                <div>
+                <   Comptwo /> 
+                </div>
             </div>
         )
     }

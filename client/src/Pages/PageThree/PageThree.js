@@ -1,28 +1,28 @@
 import React, { Component } from 'react'
 import Dropdown from 'react-dropdown'
 import 'react-dropdown/style.css'
-import Compone from '../../components/compone'
+import Compthree from '../../components/compthree'
 
 const options = [
-    'Top Five 10 Categories', 'Category 2', 'Category 3'
+    'Success By Goal', 'Category 2', 'Category 3'
   ]
 
   
-  export class PageOne extends Component {
+  export class PageThree extends Component {
       onSelect = () => {
             console.log("hello")
         }
       render() {
         return (
             <div>
-            
+
             <div className="dropdown">
                 <Dropdown options={options} onChange={this.onSelect} placeholder="Select a category" />
             </div>
-                <Compone />
+                <Compthree /> 
             </div>
         )
     }
 }
 
-export default PageOne;
+export default PageThree;

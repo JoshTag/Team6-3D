@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import PageOne from '../PageOne/PageOne'
-import PageTwo from '../PageTwo/PageTwo'
+import PageOne from '../PageOne/PageOne';
+import PageTwo from '../PageTwo/PageTwo';
+import PageThree from '../PageThree/PageThree';
 
 export class Main extends Component {
     render() {
@@ -9,8 +10,9 @@ export class Main extends Component {
             <BrowserRouter>
 
                 <Switch>
-                    <PageOne /> 
+                    {/* <PageOne />  */}
                     <PageTwo /> 
+                    {/* <PageThree />  */}
                 </Switch>
             </BrowserRouter>
         )
