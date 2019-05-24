@@ -9,8 +9,8 @@ export class Main extends Component {
             <BrowserRouter>
 
                 <Switch>
-                    <PageOne /> 
-                    <PageTwo /> 
+                    {/* <PageOne /> 
+                    <PageTwo />  */}
                 </Switch>
             </BrowserRouter>
         )

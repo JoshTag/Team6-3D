@@ -1,0 +1,42 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.nav-bar {
+    display: flex; 
+    align-items: center;
+    height: 120px;
+    background-color: #1e065a;
+    color: white; 
+    padding-left: 2rem;
+    flex-direction: row;
+    &__tabs {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        list-style-type: none;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        height: 100%;
+        &--inventory, &--locations {
+            width: 100%;
+            text-align: center;
+            font-size: 1rem;
+            width: 80px;
+            font-family: 'Roboto', sans-serif;
+            font-weight: bold;
+        }
+        &--locations {
+            margin-left: 54px;
+            margin-right: 2rem;
+        }
+        &--link {
+            color: white;
+            text-decoration: none;
+        }
+        &--current {
+            border-bottom: 4px solid mercury;
+            font-family: 'Avenir Next Demi'
+        }
+    }
+}
