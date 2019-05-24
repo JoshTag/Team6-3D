@@ -4,7 +4,7 @@ export class PageTwo extends Component {
     render() {
         return (
             <div>
-                PAGE 2
+                PAGE TWOOOo
             </div>
         )
     }
