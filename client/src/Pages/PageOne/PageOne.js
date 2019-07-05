@@ -15,9 +15,9 @@ import { Link } from 'react-router-dom';
                     <p>Choose a category to explore the data</p>
                     <div className="buttongroup">
                         <button type="button"><Link to="/results">Film & Video</Link></button>
-                        <button>Music</button>
-                        <button>Education</button>
-                        <button>Game</button>
+                        <button>Change</button>
+                        <button>Change</button>
+                        <button>Change</button>
                     </div>
 
                 </div>
